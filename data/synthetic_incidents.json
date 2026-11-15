@@ -1,0 +1,32 @@
+[
+  {
+    "incident_id": "INC-1041",
+    "facility": "DC-North-04",
+    "service": "Inventory-Sync-API",
+    "summary": "Batch inventory reconciliation timed out after 30s during peak shift handoff, delaying pallet receiving scans for 45 minutes."
+  },
+  {
+    "incident_id": "INC-1042",
+    "facility": "DC-Midwest-11",
+    "service": "Inventory-Sync-API",
+    "summary": "Duplicate ASN payload caused Inventory-Sync-API retry storm and stalled outbound dock door assignment."
+  },
+  {
+    "incident_id": "INC-1043",
+    "facility": "DC-South-02",
+    "service": "Label-Print-Service",
+    "summary": "Zebra printer firmware mismatch after overnight patch caused intermittent barcode formatting errors on cold-chain lanes."
+  },
+  {
+    "incident_id": "INC-1044",
+    "facility": "DC-West-09",
+    "service": "Access-Portal-Auth",
+    "summary": "Temporary contractor badge provisioning failed role-mapping sync; resolved via self-service directory refresh."
+  },
+  {
+    "incident_id": "INC-1045",
+    "facility": "DC-East-07",
+    "service": "Unknown-Telemetry",
+    "summary": "Intermittent scanner lag reported by floor supervisor; network packet logs inconclusive."
+  }
+]
